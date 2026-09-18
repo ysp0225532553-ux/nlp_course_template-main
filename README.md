@@ -9,7 +9,7 @@
 * **姓名**：[蕭宇辰]
 
 ## 硬體與環境狀態 (Environment Setup)
-* **PyTorch 執行環境**：[請填寫您安裝的狀態： Windows CPU]
+* **PyTorch 執行環境**：[Windows CPU]
 
 ---
 
