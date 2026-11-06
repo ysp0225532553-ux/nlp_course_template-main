@@ -10,7 +10,7 @@
 
 | 工具 (例：ChatGPT、Gemini、Claude、Copilot) | 版本 / 方案 (例：免費版) | 用在哪幾週 |
 |---|---|---|
-| ChatGPT / OpenAI Codex | GPT-6（本次工作階段） | Week 04 / 08 |
+| ChatGPT / OpenAI Codex | GPT-6（本次工作階段） | Week 04 / 08 / 09 |
 
 ---
 
