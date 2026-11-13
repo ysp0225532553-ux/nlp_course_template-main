@@ -37,3 +37,12 @@
 - [x] **觀測儀表板與報告**：
   - [x] 成功繪製 4 拼圖資料觀測儀表板 (`metrics_dashboard.png`)。
   - [x] 成功將核心評估指標匯出為根目錄下的 `metrics.json`。
+
+### Week 10：關鍵字檢索與語意檢索
+- [x] 使用 TF-IDF、BM25 與句向量搜尋校規 chunks，並比較 10 個問題的 hit@3。
+- [x] 完成 cosine 相似度、Dense 檢索、3-C 自選問題與反思。
+- [x] 比較結果：TF-IDF 0.40、BM25 0.50、Dense 0.80；結果顯示關鍵字與語意檢索各有適用情境。
+- **本週新增檔案**：
+  - `notebooks/10_setup.ipynb`：Week 10 環境與句向量預先計算設定。
+  - `notebooks/10_vector_similarity.ipynb`：向量相似度、三種檢索方法與評估練習。
+  - `week10_retrieval_comparison.json`：10 個校規問題的檢索結果、人工判斷與 hit@3 統計。
