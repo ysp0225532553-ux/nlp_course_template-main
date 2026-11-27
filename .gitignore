@@ -53,3 +53,7 @@ data/processed/**/*.json
 # Week 10：模型與向量檔不上傳
 models/
 data/embeddings/
+
+# Week 12
+data/processed_v2/
+data/processed_v2_800/

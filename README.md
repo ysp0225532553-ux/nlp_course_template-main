@@ -46,3 +46,18 @@
   - `notebooks/10_setup.ipynb`：Week 10 環境與句向量預先計算設定。
   - `notebooks/10_vector_similarity.ipynb`：向量相似度、三種檢索方法與評估練習。
   - `week10_retrieval_comparison.json`：10 個校規問題的檢索結果、人工判斷與 hit@3 統計。
+
+### Week 12: Chunking Strategies & Vector Index
+
+- [x] **依結構切塊**：執行 `src/rechunk_v2.py`，產生 `data/processed_v2/`（策略 C、D）
+- [x] **固定長度 + 重疊**：完成 `fixed_chunks`（策略 B）
+- [x] **向量索引**：儲存 `data/embeddings/week12_v2_emb.npy`（策略 D，第 14 週使用）
+- [x] **自動評估**：完成 `hit_at_k`、`topk_chars`，比較四種策略
+  | 策略 | hit@3 | hit@5 |
+  |---|---:|---:|
+  | A 第 8 週 | 0.75 | 0.79 |
+  | B 固定長度 + 重疊 | 0.67 | 0.83 |
+  | C 依條文（無標題） | 0.67 | 0.83 |
+  | D 依條文 + 標題 | 0.71 | 0.88 |
+- [x] **自己出題**：設計 2 題，並比較 A、B、D 的答案排名
+- [x] **選做：調整 chunk 上限**：D 策略上限設為 800 字，243 個 chunks；hit@3 為 0.75、hit@5 為 0.92
